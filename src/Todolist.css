@@ -1,0 +1,101 @@
+/* General styling */
+.todo-app {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+  }
+  
+    .todo-input {
+        padding: 10px;
+        width: 100%;
+        margin-bottom: 15px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+        background-color: #fff;
+        transition: border-color 0.3s ease;
+      }
+  
+  
+  .add-task-btn, .done-btn, .delete-btn, .all-done-btn {
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  .add-task-btn {
+    padding: 12px 20px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+
+  .todo-list-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px; 
+    text-align: center; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+  }
+  /* Styling for the todo list */
+  .todo-list {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+  }
+  
+  /* Styling for each todo item */
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px; 
+    padding: 10px;
+    border: none; 
+    background-color: #f9f9f9;
+  }
+  
+  .task-done {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .task-pending {
+    color: black;
+  }
+  
+  .todo-buttons {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .delete-btn {
+    background-color: #f44336; 
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .done-btn {
+    background-color: #4CAF50;
+  }
+  
+ 
+  .all-done-btn {
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .all-done-btn:hover {
+    background-color: #388E3C; 
+  }
+  

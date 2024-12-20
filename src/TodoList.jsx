@@ -54,6 +54,7 @@ export default function TodoList() {
         <div className="todo-app">
             <input 
                 className="todo-input"
+                style={{color:'black'}}
                 placeholder="Add a task" 
                 value={newTodo} 
                 onChange={updateTodoValue} 
